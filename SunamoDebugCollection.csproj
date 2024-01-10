@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>24.1.7.1</Version>
+	  <Description>List with some useful improvements for easier debugging</Description>
+  </PropertyGroup>
+</Project>
