@@ -1,3 +1,5 @@
+using SunamoDebugCollection._sunamo;
+
 namespace SunamoDebugCollection;
 
 public class DebugLongCollection : DebugCollection<long>
