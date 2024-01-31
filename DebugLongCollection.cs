@@ -1,5 +1,3 @@
-using SunamoDebugCollection._sunamo;
-
 namespace SunamoDebugCollection;
 
 public class DebugLongCollection : DebugCollection<long>
@@ -16,7 +14,7 @@ public class DebugLongCollection : DebugCollection<long>
                 l2.Add(this[i]);
             }
 
-            var s = NH.CalculateMedianAverage(l2);
+            //var s = NH.CalculateMedianAverage(l2);
         }
 #endif
     }
