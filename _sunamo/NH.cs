@@ -1,4 +1,6 @@
-﻿//using System;
+namespace SunamoDebugCollection._sunamo;
+
+//using System;
 //using System.Collections.Generic;
 //using System.Linq;
 //using System.Text;
@@ -6,7 +8,7 @@
 
 //namespace SunamoDebugCollection._sunamo;
 
-//public class NH
+//internal class NH
 //{
-//    public static Func<List<long>, string> CalculateMedianAverage;
+//    internal static Func<List<long>, string> CalculateMedianAverage;
 //}
