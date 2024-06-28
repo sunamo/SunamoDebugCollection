@@ -1,3 +1,5 @@
+
+namespace SunamoDebugCollection;
 public class CASunamoExceptions
 {
     public static bool IsListStringWrappedInArray<T>(List<T> v2)
