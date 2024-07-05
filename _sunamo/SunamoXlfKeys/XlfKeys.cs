@@ -1,4 +1,4 @@
-namespace SunamoDebugCollection;
+namespace SunamoDebugCollection._sunamo.SunamoXlfKeys;
 
 
 
