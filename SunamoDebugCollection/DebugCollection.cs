@@ -6,13 +6,13 @@ namespace SunamoDebugCollection;
 /// <typeparam name="T"></typeparam>
 public class DebugCollection<T> : List<T>
 {
-    public List<T> dontAllow = new();
+    public List<T> DontAllow { get; set; } = new();
 
     public DebugCollection()
     {
     }
 
-    public DebugCollection(IList<T> t) : base(t)
+    public DebugCollection(IList<T> items) : base(items)
     {
     }
 
@@ -33,9 +33,9 @@ public class DebugCollection<T> : List<T>
         }
     }
 
-    public new void Add(T t)
+    public new void Add(T item)
     {
-        if (dontAllow.Contains(t))
+        if (DontAllow.Contains(item))
         {
 #if DEBUG
             //////DebugLogger.Break();
@@ -43,7 +43,7 @@ public class DebugCollection<T> : List<T>
         }
         else
         {
-            base.Add(t);
+            base.Add(item);
         }
     }
 }

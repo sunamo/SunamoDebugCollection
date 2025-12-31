@@ -8,8 +8,8 @@ internal sealed partial class Exceptions
     #region Other
 
 #region IsNullOrWhitespace
-    readonly static StringBuilder sbAdditionalInfoInner = new();
-    readonly static StringBuilder sbAdditionalInfo = new();
+    readonly static StringBuilder additionalInfoInnerStringBuilder = new();
+    readonly static StringBuilder additionalInfoStringBuilder = new();
     #endregion
 #endregion
 }

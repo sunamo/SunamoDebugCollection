@@ -2,16 +2,16 @@ namespace SunamoDebugCollection;
 
 public class DebugLongCollection : DebugCollection<long>
 {
-    public new void Add(long l)
+    public new void Add(long value)
     {
-        base.Add(l);
+        base.Add(value);
 #if DEBUG
         if (Count % 100 == 0)
         {
-            var l2 = new List<long>();
-            for (var i = Count - 1; i >= Count - 100; i--) l2.Add(this[i]);
+            var recentValues = new List<long>();
+            for (var i = Count - 1; i >= Count - 100; i--) recentValues.Add(this[i]);
 
-            //var s = NH.CalculateMedianAverage(l2);
+            //var s = NH.CalculateMedianAverage(recentValues);
         }
 #endif
     }
