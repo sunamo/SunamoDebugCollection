@@ -22,8 +22,8 @@ public class DebugCollection<T> : List<T>
     /// <summary>
     /// Initializes a new instance of the <see cref="DebugCollection{T}"/> class with items from an existing collection.
     /// </summary>
-    /// <param name="items">The collection whose elements are copied to the new collection.</param>
-    public DebugCollection(IList<T> items) : base(items)
+    /// <param name="list">The collection whose elements are copied to the new collection.</param>
+    public DebugCollection(IList<T> list) : base(list)
     {
     }
 
