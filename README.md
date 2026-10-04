@@ -1,5 +1,10 @@
 # SunamoDebugCollection
 
+## Short description
+
+Seznam s vylepšeními pro snazší ladění kódu.
+
+
 List with some useful improvements for easier debugging
 
 ## Overview
